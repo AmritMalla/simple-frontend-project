@@ -1,0 +1,29 @@
+#slider{
+    max-width: 70%;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: solid 3px red;
+}
+.wrapper {
+    height: auto !important;
+    margin: 0 auto; 
+}
+
+  .page_container {
+    max-width: 960px;
+    margin: 50px auto;
+    margin-bottom: 50px;
+    margin-top: 0;
+  }
+
+
+.immersive_slider.content p{
+  float: left;
+  font-weight: 100;
+  text-align: center;
+  width: 100%;
+  font-size: 17px;
+  margin-top: 5px;
+}
