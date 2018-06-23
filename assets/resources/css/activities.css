@@ -1,0 +1,27 @@
+.card-group{
+    margin: 2% auto;
+}
+
+.card{
+    margin: 2% 1%;
+    padding: -4px;
+    min-width: 45%;
+}
+.activity-head{
+    background-color: #358CCE;
+    color: white;
+    height: 100px;
+    padding-top: 2em;
+}
+
+.activity-head h3{
+    font-size: 30px;
+    font-family: cursive;
+
+}
+
+@media (max-width:730px){
+    .card{
+        min-width: 92%;
+    }
+}

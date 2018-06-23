@@ -1,0 +1,40 @@
+.card{
+    margin: 2% auto;
+}
+
+.jumbotron {
+    background: #358CCE;
+    color: #FFF;
+    font-family: cursive;
+    border-radius: 0px;
+}
+
+.jumbotron-sm { padding-top: 24px;
+    padding-bottom: 24px; 
+}
+
+.jumbotron small {
+    color: #FFF;
+}
+
+.contact-page{
+    margin: 50px auto;
+}
+
+.h1 small {
+    font-size: 24px;
+}
+
+    .map-responsive{
+        overflow:hidden;
+        padding-bottom:50%;
+        position:relative;
+        height:0;
+    }
+    .map-responsive iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }

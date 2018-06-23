@@ -1,0 +1,46 @@
+.welcome{
+    margin: 2em auto 1em auto;
+}
+
+
+blockquote p{
+    font-size: 17px;
+    font-family: 'Courgette', cursive;
+  }
+  
+  
+.card .card-body h4{
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    color: darkmagenta;
+  }
+  
+.intro h2{
+  
+    color: darkmagenta;
+    font-family: 'Courgette', cursive;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 10px;    
+}
+  
+
+#gmaps{
+    margin: 1em auto 1em auto;
+}
+
+#gmaps .card-body .card-title{
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    color: darkmagenta;
+}
+
+#gmaps .card-body .btn{
+    background-color:  #122f8b;
+    color: white;
+    border-color: #122f8b;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: 600;
+}
+

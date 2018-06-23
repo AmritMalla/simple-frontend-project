@@ -6,24 +6,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!--CSS Files -->
-  <link rel="stylesheet" type="text/css" href="./assets/resources/css/header.css">
-  <link rel="stylesheet" type="text/css" href="./assets/resources/css/footer.css">
-  <link rel="stylesheet" type="text/css" href="./assets/resources/css/style.css">
-
   <!-- Bootstrap CSS -->
   <!-- <link rel="stylesheet" href="./assets/lib/bootstrap/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
     crossorigin="anonymous">
+
+  <!--CSS Files -->
+  <link rel="stylesheet" type="text/css" href="./assets/resources/css/header.css">
+  <link rel="stylesheet" type="text/css" href="./assets/resources/css/footer.css">
+  <link rel="stylesheet" type="text/css" href="./assets/resources/css/style.css">
+  <link rel="stylesheet" type="text/css" href="./assets/resources/css/about.css">
+
 
   <!-- fonts -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Raleway|Roboto" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
 
-  <!-- scripts -->
-  <script src="./assets/lib/bootstrap/js/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="./assets/lib/slider/jquery.immersive-slider.js"></script>
+
 
 
 </head>
@@ -79,7 +79,7 @@
             <a class="nav-link" href="./curriculum.html">Curriculum</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="./daycarecenter.html">Day Care Center</a>
+            <a class="nav-link" href="./activities.html">Activities</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./facilities.html">Facilities</a>
@@ -94,7 +94,93 @@
       </div>
     </nav>
 
+    <div class="clearfix"></div>
 
+
+    <!-- welcome message -->
+    <div class="card welcome">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-8">
+            <h4 class="card-title text-center">Welcome Message from Principal</h4>
+            <p class="card-text italic">
+              <blockquote class="blockquote">
+                <p>
+                  “Education is a natural process carried out by the child and is not acquired by listening to words but by experiences in
+                  the environment.” If a child is interested, he will learn, and his learning will be deep and lasting.
+                </p>
+                <p>
+                  Our classrooms are filled with beautiful materials, enticing choices, experienced and dedicated teachers and other interested
+                  learners. This combination creates a powerful experience unlike any other learning environment and classroom.
+                </p>
+                <p>
+                  The mission of Oak Grove Montessori School is to provide a nurturing, high quality Montessori educational program in which
+                  children can realize their potential. This mission is shared by parents, teachers and staff alike. It is
+                  our hope to assist children in becoming responsible, resourceful and respectful.
+                </p>
+                <p>
+                  Oak Grove is more than a school. It is a strong community of families with common goals and values.
+                </p>
+                <p>
+                  As Head of School my role of leadership and my goals for the school are many. The most important however, is to provide a
+                  safe, nurturing learning environment filled with opportunities for each student to meet their unique potential,
+                  be challenged and learn according to their own style. Every child has a gift and it is our responsibility
+                  to find the ways to make those gifts emerge. We want each child to understand their strengths and to acknowledge
+                  their weaknesses and to know what it takes to succeed each day and to be assured that they each have their
+                  gifts to share with the world.
+                </p>
+                <p>
+                  We have seen the fruits of our work in the amazing results of our graduates, as they step into the next chapter of their
+                  lives as self-assured, successful students and leaders. Thank you for visiting our website. I invite you
+                  to call and set up a time to visit and tour our school and meet our staff.
+                </p>
+              </blockquote>
+
+
+          </div>
+          <div class="col-md-4">
+            <div class="text-center">
+              <img class="img-fluid img-thumbnail rounded-circle" src="./img/principal.jpg" alt="principal">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Show Google Maps -->
+    <div id="gmaps" class="card text-center">
+      <div class="card-body">
+        <h5 class="card-title">View Google Map </h5>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+          Show Map
+        </button>
+      </div>
+
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"
+      style="z-index: 2000">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Show Google Maps</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1765.6054491579232!2d85.33104265793767!3d27.741640369600123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb193784cbf591%3A0x720936a9ba7a354a!2sKANTIPUR+MONTESSORI+KINDER+WORLD+%26+TEACHER+TRAINING+CENTRE!5e0!3m2!1sen!2snp!4v1528873157122"
+              width=95% height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     <div class="clearfix"></div>
@@ -103,7 +189,7 @@
       <footer>
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-4">
               <div class="text-center">
                 <h3>Quick Access</h3>
                 <ul>
@@ -114,20 +200,21 @@
                     <a href="./about.html">About us</a>
                   </li>
                   <li>
-                    <a href="./gallery.html">Recent Activities</a>
+                    <a href="./activities.html">Recent Activities</a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-4">
               <div class="text-center" id="address">
-                <h3>About Us</h3>
-                <p>Basundhara Chowk <br>
-                Basundhara, Kathmandu <br>
-                &#9742; +01-47-784</p>
+                <h3>Contact Us</h3>
+                <h4>Kantipur Montessori</h4>
+                <p>Basundhara Chowk
+                  <br> Basundhara, Kathmandu
+                  <br><span id ="telephone-icon">&#9742;</span>  +01-47-784</p>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
               <div class="text-center">
                 <h3>Connect with us on social Media</h3>
                 <div class="col item social">
@@ -135,34 +222,24 @@
                     <li>
                       <a class="tooltip" href="#">
                         <i class="fa fa-facebook"></i>
-                      </a>
-                      <a href="#">
                         <span class="tooltiptext">Facebook</span>
                       </a>
                     </li>
                     <li>
                       <a class="tooltip" href="#">
                         <i class="fa fa-twitter"></i>
-                      </a>
-                      <a href="">
-
                         <span class="tooltiptext">Twitter</span>
                       </a>
                     </li>
                     <li>
                       <a class="tooltip" href="#">
                         <i class="fa fa-snapchat"></i>
-                      </a>
-                      <a href="">
-
                         <span class="tooltiptext">Snapchat</span>
                       </a>
                     </li>
                     <li>
                       <a class="tooltip" href="#">
                         <i class="fa fa-instagram"></i>
-                      </a>
-                      <a href="">
                         <span class="tooltiptext">Instagram</span>
 
                       </a>
@@ -171,35 +248,26 @@
                 </div>
               </div>
             </div>
-
-            <div class="col-md-5">
-              <div class="text-center">
-                <a href="#">
-                  <h3>Our Location</h3>
-                </a>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1765.6054491579232!2d85.33104265793767!3d27.741640369600123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb193784cbf591%3A0x720936a9ba7a354a!2sKANTIPUR+MONTESSORI+KINDER+WORLD+%26+TEACHER+TRAINING+CENTRE!5e0!3m2!1sen!2snp!4v1528873157122"
-                  width=95% height="220" frameborder="0" style="border:0" allowfullscreen></iframe>
-              </div>
-            </div>
-
-
           </div>
         </div>
       </footer>
 
-        <p class="copyright">AS Creation © 2018</p>
-      
+      <p class="copyright">AS Creation © 2018</p>
+
     </div>
 
     <!-- main body wrapper end -->
   </div>
 
-  
+
+  <script src="./assets/lib/bootstrap/js/jquery-3.2.1.min.js"></script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
     crossorigin="anonymous"></script>
+
+  <script src="//maps.googleapis.com/maps/api/js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
     crossorigin="anonymous"></script>
-
 </body>
 
 </html>

@@ -39,10 +39,18 @@
 }
 
 .footer-dark .social ul li{
-  margin: 20px;
+  margin: 5px;
+}
+
+.footer-dark .social ul li a{
+  display: block;
 }
 
 
+.footer-dark #address h4{
+  font-size: 20px;
+  font-weight: 300;
+}
 
 .footer-dark .item .fa{
   font-size: 26px;
@@ -51,13 +59,17 @@
   width: 40px;
   color:#0b33b8;
   background-color: white;
-  border: solid 3px rgb(210, 142, 222);
+  border: solid 3px rgb(216, 202, 202);
   border-radius: 100%;
 }
 
 
 .footer-dark footer .container-fluid{
   padding-bottom: 10px;
+}
+
+#telephone-icon{
+  font-size: 25px;
 }
 
 /* tooltip for social links */
@@ -72,18 +84,34 @@
   width: 120px;
   background-color: white;
   color: black;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
 
   /* Position the tooltip */
   position: absolute;
-  z-index: 1;
+  z-index: 1071;
+  top: 3px;
+  right: 13%;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent white transparent transparent;
 }
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+
 
 .footer-dark footer{ 
   border-bottom: solid 1px beige;
@@ -93,6 +121,13 @@
   font-size: 14px;
 
 }
+
+.footer-dark .social ul li i {
+  display: block;
+  position: relative;
+  margin-left: 42%;
+}
+
 
 @media (max-width:767px) {
   .footer-dark .item:not(.social) {

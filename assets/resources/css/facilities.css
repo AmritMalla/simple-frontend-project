@@ -1,0 +1,35 @@
+.base-spacing{
+    margin: 15px auto;   
+   }
+   
+.card{
+    padding: 2%;
+    margin: 2%;
+}
+
+   .base-spacing .unique,
+   .base-spacing .class-rooms{
+       display: block;
+       width: 58%;
+       overflow: none;
+       float: left;
+       
+   }
+
+   .card .img-fluid{
+    width: 38%
+}
+
+   @media (max-width: 800px){
+    .base-spacing .unique,
+    .base-spacing .class-rooms{
+       width: 98%;
+        
+    }   
+
+    .card .img-fluid{
+        width: 98%
+    }
+
+
+   }

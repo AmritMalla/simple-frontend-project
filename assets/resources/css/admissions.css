@@ -1,0 +1,21 @@
+.card{
+    margin: 1em auto;
+}
+
+blockquote p{
+    font-size: 17px;
+    font-family: 'Courgette', cursive;
+  }
+  
+.card .card-header h4{
+    
+    font-family: 'Courgette', cursive;
+    font-size: 40px;
+    color: darkmagenta;
+      
+}
+.card .card-body h4{
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    color: darkmagenta;
+  }

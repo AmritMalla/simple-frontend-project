@@ -1,0 +1,50 @@
+.welcome-curriculum{
+    margin: 1em auto;
+}
+
+
+blockquote p{
+    font-size: 17px;
+    font-family: 'Courgette', cursive;
+  }
+ 
+.card .card-body h3{
+    font-family:cursive;
+    font-size: 30px;
+    color: rgb(150, 0, 150);
+    text-decoration: underline;
+}
+.card .card-body h4{
+    font-family:cursive;
+    font-size: 24px;
+    color: rgb(150, 0, 150);
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.card .card-body .text-justify{
+    max-width: 75%;
+    display: inline-block;
+}
+.card .card-body p{
+    margin: auto 20px;
+    
+}
+.float-right,.float-left{
+    min-width: 18%;
+    height: auto;
+}
+
+@media (max-width:887px){
+    .float-right, .float-left{
+        width: 100%;
+    } 
+
+    card .card-body .text-center{
+        width: 95%;
+      }
+
+}
+
+
+  
